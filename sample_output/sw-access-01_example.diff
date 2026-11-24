@@ -1,0 +1,14 @@
+--- sw-access-01 (previous)
++++ sw-access-01 (20261124-173310)
+@@ -6,8 +6,9 @@
+  spanning-tree portfast
+ !
+ interface GigabitEthernet1/0/2
+- switchport access vlan 10
++ switchport access vlan 30
++ description GUEST-KIOSK
+ !
+ line vty 0 4
+- transport input ssh
++ transport input ssh telnet
+ end

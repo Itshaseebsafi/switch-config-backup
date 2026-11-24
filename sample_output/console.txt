@@ -1,0 +1,12 @@
+
+Backing up 4 device(s)...
+
+DEVICE             HOST             STATUS     DETAIL
+----------------------------------------------------------------------
+sw-core-01         10.10.0.2        unchanged  
+sw-access-01       10.10.0.3        changed    +3 / -2 lines
+sw-access-02       10.10.0.4        unchanged  
+sw-access-03       10.10.0.9        failed     TimeoutError: TCP connection to device failed (10.10.0.9:22)
+
+3 backed up, 1 changed, 1 failed.
+Diffs are in backups/<device>/ next to each backup.

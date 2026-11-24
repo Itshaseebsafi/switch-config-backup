@@ -1,0 +1,5 @@
+name,host,device_type,port
+sw-core-01,10.10.0.2,cisco_ios,
+sw-access-01,10.10.0.3,cisco_ios,
+sw-access-02,10.10.0.4,cisco_ios,
+sw-access-03,10.10.0.9,cisco_ios,
